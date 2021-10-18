@@ -1,0 +1,61 @@
+@use "../utils";
+
+section.summary {
+  padding: 10rem 20rem;
+  h1 {
+    @include utils.h1-main;
+  }
+  p {
+    margin: 0 2rem;
+    font-size: 2rem;
+    color: utils.$white;
+    strong {
+      color: utils.$jasmine;
+    }
+    span {
+      font-style: italic;
+    }
+  }
+}
+main {
+  padding: 0 10rem;
+  section {
+    margin-bottom: 8rem;
+    h1 {
+      @include utils.h1-main;
+    }
+    article {
+      margin: 0 2rem;
+      h2 {
+        @include utils.h2-main;
+      }
+      .skills-block {
+        @include utils.block-grid-2-col(1fr);
+        p {
+          @include utils.p-block;
+        }
+        .star-container {
+          @include utils.star-container;
+        }
+      }
+      .training-block {
+        @include utils.block-grid-2-col(auto);
+        p {
+          @include utils.p-block;
+        }
+      }
+      .experience-block {
+        margin: 1rem 2rem;
+        h3 {
+          @include utils.h3-main;
+        }
+      }
+      .block {
+        @include utils.block-grid-2-col(auto);
+        p {
+          @include utils.p-block;
+        }
+      }
+    }
+  }
+}

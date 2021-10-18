@@ -1,0 +1,55 @@
+@use "../utils";
+
+.color {
+  &-white {
+    color: utils.$white;
+  }
+  &-primary {
+    color: utils.$primary;
+  }
+  &-secondary {
+    color: utils.$secondary;
+  }
+  &-dark {
+    color: utils.$dark;
+  }
+  &-blue-purple {
+    color: utils.$blue-purple;
+  }
+  &-fire {
+    color: utils.$fire-red;
+  }
+  &-hint {
+    color: utils.$hint;
+  }
+  &-pumpkin {
+    color: utils.$pumpkin;
+  }
+  &-jasmine {
+    color: utils.$jasmine;
+  }
+}
+
+.size {
+  &-2 {
+    font-size: 2rem;
+  }
+  &-3 {
+    font-size: 3rem;
+  }
+  &-4 {
+    font-size: 4rem;
+  }
+  &-5 {
+    font-size: 5rem;
+  }
+}
+
+.background {
+  &-primary {
+    background: utils.$primary;
+  }
+  &-secondary {
+    background: utils.$secondary;
+  }
+}
