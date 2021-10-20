@@ -33,12 +33,16 @@ aside {
     .contact {
       .line-container {
         @include utils.contact-animation;
+
         p {
           font-style: italic;
           font-weight: 500;
           font-size: 1.5rem;
           color: utils.$white;
         }
+      }
+      .pointer {
+        cursor: pointer;
       }
     }
     .languages {

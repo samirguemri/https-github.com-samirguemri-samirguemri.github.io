@@ -49,7 +49,6 @@
 @mixin contact-animation {
   border-radius: 5px;
   transition: all 0.2s;
-  cursor: pointer;
   &:hover {
     background: colors.$jasmine;
     i {
@@ -67,7 +66,6 @@
 @mixin languages-animation {
   border-radius: 5px;
   transition: all 0.2s;
-  cursor: pointer;
   &:hover {
     background: colors.$jasmine;
     p {
@@ -87,7 +85,6 @@
 @mixin skills-animation {
   border-radius: 5px;
   transition: all 0.2s;
-  cursor: pointer;
   &:hover {
     background: colors.$jasmine;
     i {
@@ -103,7 +100,6 @@
 }
 
 @mixin interests-animation {
-  cursor: pointer;
   i {
     &:hover {
       color: colors.$blue-purple;
